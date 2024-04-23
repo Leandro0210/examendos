@@ -76,3 +76,40 @@ public class CalculadoraUI
         // Implementa el cálculo de tiempo para MRUA
     }
 }
+// Clase para los cálculos de MRU
+public class MRUCalculator
+{
+    public static double CalcularDistancia(double velocidad, double tiempo)
+    {
+        return velocidad * tiempo;
+    }
+
+    public static double CalcularVelocidad(double distancia, double tiempo)
+    {
+        return distancia / tiempo;
+    }
+
+    public static double CalcularTiempo(double distancia, double velocidad)
+    {
+        return distancia / velocidad;
+    }
+}
+
+// Clase para los cálculos de MRUA
+public class MRUACalculator
+{
+    public static double CalcularPosicionFinal(double posicionInicial, double velocidadInicial, double tiempo, double aceleracion)
+    {
+        return posicionInicial + velocidadInicial * tiempo + 0.5 * aceleracion * Math.Pow(tiempo, 2);
+    }
+
+    public static double CalcularVelocidadFinal(double velocidadInicial, double aceleracion, double tiempo)
+    {
+        return velocidadInicial + aceleracion * tiempo;
+    }
+
+    public static double CalcularTiempo(double velocidadFinal, double velocidadInicial, double aceleracion)
+    {
+        return (velocidadFinal - velocidadInicial) / aceleracion;
+    }
+}

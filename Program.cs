@@ -46,3 +46,33 @@ public class CalculadoraUI
                 break;
         }
     }
+     private void CalcularDistanciaMRU()
+    {
+        // Implementa el cálculo de distancia para MRU
+    }
+
+    private void CalcularVelocidadMRU()
+    {
+        // Implementa el cálculo de velocidad para MRU
+    }
+
+    private void CalcularTiempoMRU()
+    {
+        // Implementa el cálculo de tiempo para MRU
+    }
+
+    private void CalcularPosicionFinalMRUA()
+    {
+        // Implementa el cálculo de posición final para MRUA
+    }
+
+    private void CalcularVelocidadFinalMRUA()
+    {
+        // Implementa el cálculo de velocidad final para MRUA
+    }
+
+    private void CalcularTiempoMRUA()
+    {
+        // Implementa el cálculo de tiempo para MRUA
+    }
+}
